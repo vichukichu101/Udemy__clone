@@ -62,14 +62,17 @@ body{
     cursor: pointer;
 }
 .pop_up{
-    text-align: center;
-    border : solid black 2px;
-    padding : 10px;
-    width:100%;
-    position: absolute;
-    background-color: white;
-    top: 130%;    
-    display : none;    
+    text-align:center;
+    border:2px solid black;
+    padding:10px;
+    width:90%;        
+    background-color:white;
+
+    position:fixed;   
+    top:20%;         
+    left:5%;          
+    
+    display:none;
 }
 
 .Mylearning:hover .pop_up{
@@ -78,21 +81,17 @@ body{
 
 .segments{
     display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding:10px;
+    flex-wrap:wrap;
     gap:10px;
-    border: solid black 1px;
-} 
+    justify-content:center;
+}
 
 .segments p{
-    width:10%;
-    padding:10px;
-    text-align: center;
-    background-color: #892DE1;
-    border-radius: 30px;
-    color: aliceblue;
-    
+    padding:10px 16px;
+    background-color:#892DE1;
+    border-radius:30px;
+    color:aliceblue;
+    text-align:center;
 }
 
 .Sales_img img{
