@@ -1,0 +1,212 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+    
+.navbar{
+    display:flex;
+    width:100%;
+    padding:10px;
+    justify-content: space-between;
+    border-bottom:solid black 1px;
+    position:sticky;
+    top:0px;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+}
+
+.navbar__s1{
+    color:#892DE1;
+    font-size:30px;
+    
+    padding: 10px;
+
+}
+.navbar__s2{
+    width:60%;
+    display:flex;
+    padding:10px;
+    gap:10px;
+    border:solid black 1px;
+    border-radius: 30px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border:none;
+    width: 100%;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display:flex;
+    gap:10px;
+    padding:10px;
+    position: relative;
+    right :1%;
+
+}
+
+.navbar__s3 p{
+    gap: 10px;
+}
+
+.Mylearning{
+    position: relative;
+    cursor: pointer;
+}
+.pop_up{
+    text-align: center;
+    border : solid black 2px;
+    padding : 10px;
+    width:100%;
+    position: absolute;
+    background-color: white;
+    top: 130%;    
+    display : none;    
+}
+
+.Mylearning:hover .pop_up{
+    display:block;
+}
+
+.segments{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px;
+    gap:10px;
+    border: solid black 1px;
+} 
+
+.segments p{
+    width:10%;
+    padding:10px;
+    text-align: center;
+    background-color: #892DE1;
+    border-radius: 30px;
+    color: aliceblue;
+    
+}
+
+.Sales_img img{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    position: relative;
+    
+}
+
+.offer{
+    text-align: center;
+    border: solid black 5px;
+    width: 30%;
+    font-size: 35px;
+    padding: 10px;
+    position :absolute;
+    top:30%;
+    left: 5%;
+    background-color: white;
+}
+
+.Rec_1{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding:10px;
+             
+}
+.Rec_1 h1{
+    margin-top: 10px;
+    padding:10px;
+}
+.Rec_1 div{
+    flex: 1 1 220px;
+    gap:10px; 
+}  
+
+.Rec_1 img{
+    width: 100%;        
+    border-radius: 10px;
+}
+
+.topics{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+    padding:10px;
+}
+.topics div{
+    padding:10px;
+    width:25%;
+    flex-grow: 1;
+    border:solid 3px grey;
+    text-align: center;
+}
+.h12{
+    padding:10px;
+}
+.Recommendation h1{
+    margin-top: 10px;
+    font-family:"gabarito",sans-serif;
+}
+.Recommendation p{
+    margin-top: 10px;
+}
+.toppics{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding:10px;
+    
+}
+.toppics div{
+    flex: 1 1 220px;
+    gap:10px;
+}
+
+.toppics img{
+    width: 100%;        
+    border-radius: 10px;
+}
+.h12{
+    padding:10px;
+}
+.hv{
+    padding:10px;
+    
+}
+.Recommendation h1{
+    padding:10px;
+}
+.Recommendation p{
+    padding:10px;
+}
+.cont{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px;
+    gap:20px;
+}
+.final{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.footer{
+    display:flex;
+    align-items:centre;
+    justify-content: space-between;
+    padding: 10px;
+}
+
