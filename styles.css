@@ -77,7 +77,7 @@ body{
 }
 
 .segments{
-    padding: 10px;
+    padding: 20px;
     display:flex;
     flex-wrap:wrap;
     gap:10px;
